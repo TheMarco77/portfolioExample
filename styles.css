@@ -2,7 +2,6 @@
 * { 
   box-sizing: border-box;
 }
-  
 
 body {
   margin: 0;
@@ -40,7 +39,6 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
-
 .nav .name {
     display: block;
     margin-right: auto;
@@ -77,6 +75,7 @@ header .profile-image {
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -84,11 +83,13 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
+
 .location {
   background-color: #222;
   color: yellow;
 }
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -109,11 +110,9 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-
 .card:hover {
   border-color: #046DC8;
 }
-
 .expcard:hover {
   border-color: #046DC8;
 }
@@ -122,7 +121,6 @@ ul.skills {
   padding: 0;
   text-align: center;
 }
-
 .skills li {
   border-radius: 6px;
   display: inline-block;
@@ -141,18 +139,15 @@ footer {
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
-
 footer .copyright {
   top: -8px;
   font-size: .75em;
 }
-
 footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-
 footer ul li {
   display: inline-block;
 }
@@ -204,7 +199,6 @@ a.social:hover {
     padding: 0 30px;
   }
 
-
   main {
     padding-top: 20px;
   }
@@ -218,6 +212,5 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
 
