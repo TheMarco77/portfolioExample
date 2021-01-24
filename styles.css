@@ -111,11 +111,11 @@ header .profile-image:hover {
 }
 
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #046DC8;
 }
 
 .expcard:hover {
-  border-color: #FE0000;
+  border-color: #046DC8;
 }
 
 ul.skills {
