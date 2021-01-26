@@ -73,7 +73,20 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.5) rotate(1deg);
+}
+
+
+.beesHeader .bee-profile {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid goldenrod;
+  transition: all .6s;
+}
+.beesHeader .bee-profile:hover {
+  transform: scale(1.5) rotate(300deg);
 }
 
 .beesHeader {
@@ -85,17 +98,6 @@ header .profile-image:hover {
 }
 .beesHeader {
   line-height: 1.5;
-}
-.beesHeader .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-.beesHeader .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
 }
 
 .tag {
@@ -141,7 +143,7 @@ header .profile-image:hover {
   text-align: left;
   background: #BFBEBA;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-radius: 1px;
   transition: all .5s;
 }
 
