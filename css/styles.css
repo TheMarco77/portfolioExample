@@ -144,6 +144,15 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+article {
+  margin: 5px;
+  padding: 5px 20px 10px;
+  max-height: 100px;
+  text-align: center;
+  background: rgb(245, 241, 241);
+}
+
 .beeCard:hover {
   border-color: gold;
 }
