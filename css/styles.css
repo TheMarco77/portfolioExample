@@ -76,6 +76,28 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 
+.beesHeader {
+  text-align: center;
+  background: url('../images/honeyBeesHome.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.beesHeader {
+  line-height: 1.5;
+}
+.beesHeader .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+.beesHeader .profile-image:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -110,6 +132,22 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.beeCard {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  max-height: 500px;
+  text-align: left;
+  background: #BFBEBA;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.beeCard:hover {
+  border-color: gold;
+}
+
 .card:hover {
   border-color: #046DC8;
 }
