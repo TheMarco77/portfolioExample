@@ -68,8 +68,8 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30%;
+  border: 3px solid #2B1D52;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -147,7 +147,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-article {
+article .card {
   margin: 5px;
   padding: 5px 20px 10px;
   max-height: 100px;
